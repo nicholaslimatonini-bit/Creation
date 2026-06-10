@@ -1,0 +1,95 @@
+.header{
+    text-align: center;
+}
+.main-title{
+    text-align: left;
+}
+.nav-links{
+    display: flex;
+    text-indent: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
+    justify-content: space-around;
+    gap: 100px;
+}
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-menu a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.nav-item:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu .dropdown-content{
+    display: block;
+}
+.dropdown-menu a:hover {
+  background-color: #dadadaa2;
+}
+/* Body Styles */
+body{
+    font-family: "DM Sans", sans-serif;
+    margin-inline-start: 20px;
+}
+body h2{
+    text-align: center;
+}
+body h3{
+    text-align: center;
+}
+body h1{
+    text-align: center;
+}
+.list-of-skills-and-qualities{
+    list-style-type: none;
+}
+#overview-of-the-page{
+    text-align: center;
+}
+.skills{
+    list-style-type: none;
+    text-align: center;
+}
+.qualities{
+    list-style-type: none;
+    text-align: center;
+}
+/*.visual-links-to-visit{
+} */
+.links-section{
+    padding-left: 310px;
+    width: 100%;
+}
+.links{
+    margin-right: 60px;
+}
+/* Sitemap Styles */
+.sitemap-links{
+    text-align: left;
+    list-style-type: none;
+    /* padding-right: 40px; */ /* <- To be used when aligning text to the centre */
+    padding-left: 660px;
+    line-height: 1.9;
+}
+/* Footer Styles */
+footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.quick-links{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 35px;
+    padding-left: 40px;
+    line-height: 1.4;
+}
