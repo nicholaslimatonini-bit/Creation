@@ -38,6 +38,8 @@
 body{
     font-family: "DM Sans", sans-serif;
     margin-inline-start: 20px;
+    margin: 0;
+    border: 0;
 }
 body h2{
     text-align: center;
