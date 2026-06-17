@@ -70,20 +70,29 @@ body h1{
     list-style-type: none;
     text-align: center;
 }
-/*.visual-links-to-visit{
-} */
+.visual-links-to-visit{
+    display: flex;
+}
+
 .links-section{
     padding-left: 0px;
     width: 100%;
     text-wrap: nowrap;
-}
-.links-section a{
-    
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
 }
 .links{
     margin-right: 60px;
     text-decoration: none;
     color: black;
+}
+.index-box a{
+    text-decoration: none;
+    color: black;
+}
+.index-box p {
+    text-align: center;
 }
 /* Slideshow section on work experience styles */
 * {box-sizing:border-box}
@@ -94,7 +103,9 @@ body h1{
   position: relative;
   margin: auto;
 }
-
+.index-box{
+    width: 100px;
+}
 .slideshow-container img{
     height: 60vh;
     width: 80vw;
