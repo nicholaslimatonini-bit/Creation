@@ -73,8 +73,12 @@ body h1{
 /*.visual-links-to-visit{
 } */
 .links-section{
-    padding-left: 310px;
+    padding-left: 0px;
     width: 100%;
+    text-wrap: nowrap;
+}
+.links-section a{
+    
 }
 .links{
     margin-right: 60px;
