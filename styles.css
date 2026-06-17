@@ -154,10 +154,10 @@ body h1{
 }
 /* Sitemap Styles */
 .sitemap-links{
-    text-align: left;
+    text-align: center;
     list-style-type: none;
     /* padding-right: 40px; */ /* <- To be used when aligning text to the centre */
-    padding-left: 660px;
+    padding-left: 0px;
     line-height: 1.9;
 }
 /* Footer Styles */
