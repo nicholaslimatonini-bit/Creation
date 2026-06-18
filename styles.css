@@ -19,6 +19,9 @@ body, html{
     text-decoration: none;
     color: black;
 }
+.text-trigger{
+    cursor: pointer;
+}
 .dropdown-menu{
   display: none;
   position: absolute;
