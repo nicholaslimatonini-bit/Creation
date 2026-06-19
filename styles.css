@@ -76,7 +76,12 @@ body h1{
 .visual-links-to-visit{
     display: flex;
 }
-
+.interesting-facts-about-me{
+    line-height: 1.9;
+}
+.fact{
+    padding: 20px;
+}
 .links-section{
     padding-left: 0px;
     width: 100%;
@@ -110,8 +115,14 @@ body h1{
     width: 100px;
 }
 .slideshow-container img{
-    height: 60vh;
-    width: 80vw;
+    height: 80vh;
+    width: 100vw;
+}
+.numbertext{
+    cursor: context-menu;
+}
+.numbertext:hover{
+   background-color: black;
 }
 /* Next & previous buttons */
 .prev, .next {
