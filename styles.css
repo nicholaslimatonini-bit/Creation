@@ -119,6 +119,8 @@ body h1{
     padding: 20px;
 }
 .links-section{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     padding-left: 0px;
     width: 100%;
     text-wrap: nowrap;
