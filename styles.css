@@ -61,13 +61,40 @@ body h1{
 }
 .list-of-skills-and-qualities{
     list-style-type: none;
+    line-height: 1.8;
+    text-align: center;
+    padding-right: 60px;
+}
+.sitemap {
+    padding-bottom: 20px;
 }
 #overview-of-the-page{
+    text-align: center;
+}
+#intro-to-hobbies{
     text-align: center;
 }
 .skills{
     list-style-type: none;
     text-align: center;
+}
+.music-section{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    line-height: 2.1;
+}
+.technology-section{
+    padding-bottom: 50px;
+}
+.early-life{
+    padding-top: 40px;
+}
+.early-life p{
+    padding-top: 50px;
+    line-height: 1.8;
+}
+.college-of-west-anglia-section{
+    line-height: 1.9;
 }
 .qualities{
     list-style-type: none;
@@ -75,6 +102,15 @@ body h1{
 }
 .visual-links-to-visit{
     display: flex;
+    padding: 40px;
+}
+.body-links{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.personal-statement{
+    padding-top: 5px;
+    line-height: 1.8;
 }
 .interesting-facts-about-me{
     line-height: 1.9;
@@ -187,7 +223,8 @@ body h1{
     list-style-type: none;
     /* padding-right: 40px; */ /* <- To be used when aligning text to the centre */
     padding-left: 0px;
-    line-height: 1.9;
+    line-height: 2.6;
+    padding-bottom: 35px;
 }
 /* Footer Styles */
 footer{
