@@ -1,11 +1,26 @@
 .header{
     text-align: center;
+    background-color: #3F88C5;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#site-title{
+    margin-left: 30px;
 }
 body, html{
     height: 100%;
+    background-color: #F49D37;
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .main-title{
     text-align: left;
+}
+footer {
+    background-color: #5E8C5A;
 }
 .nav-links{
     display: flex;
@@ -80,7 +95,7 @@ body h1{
 }
 .music-section{
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 10px;
     line-height: 2.1;
 }
 .technology-section{
@@ -126,7 +141,8 @@ body h1{
     text-wrap: nowrap;
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    gap: 70px;
+    padding-right: 150px;
 }
 .links{
     margin-right: 60px;
@@ -138,7 +154,11 @@ body h1{
     color: black;
 }
 .index-box p {
-    text-align: center;
+    padding-left: 60px;
+}
+.index-box img{
+    width: 190px;
+    padding-left: 40px;
 }
 /* Slideshow section on work experience styles */
 * {box-sizing:border-box}
