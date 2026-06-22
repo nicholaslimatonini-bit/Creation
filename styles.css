@@ -1,11 +1,26 @@
 .header{
     text-align: center;
+    background-color: #3F88C5;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#site-title{
+    margin-left: 30px;
 }
 body, html{
     height: 100%;
+    background-color: #F49D37;
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .main-title{
     text-align: left;
+}
+footer {
+    background-color: #5E8C5A;
 }
 .nav-links{
     display: flex;
@@ -61,13 +76,40 @@ body h1{
 }
 .list-of-skills-and-qualities{
     list-style-type: none;
+    line-height: 1.8;
+    text-align: center;
+    padding-right: 60px;
+}
+.sitemap {
+    padding-bottom: 20px;
 }
 #overview-of-the-page{
+    text-align: center;
+}
+#intro-to-hobbies{
     text-align: center;
 }
 .skills{
     list-style-type: none;
     text-align: center;
+}
+.music-section{
+    padding-bottom: 50px;
+    padding-top: 10px;
+    line-height: 2.1;
+}
+.technology-section{
+    padding-bottom: 50px;
+}
+.early-life{
+    padding-top: 40px;
+}
+.early-life p{
+    padding-top: 50px;
+    line-height: 1.8;
+}
+.college-of-west-anglia-section{
+    line-height: 1.9;
 }
 .qualities{
     list-style-type: none;
@@ -75,6 +117,15 @@ body h1{
 }
 .visual-links-to-visit{
     display: flex;
+    padding: 40px;
+}
+.body-links{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.personal-statement{
+    padding-top: 5px;
+    line-height: 1.8;
 }
 .interesting-facts-about-me{
     line-height: 1.9;
@@ -83,12 +134,15 @@ body h1{
     padding: 20px;
 }
 .links-section{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     padding-left: 0px;
     width: 100%;
     text-wrap: nowrap;
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    gap: 70px;
+    padding-right: 150px;
 }
 .links{
     margin-right: 60px;
@@ -100,7 +154,11 @@ body h1{
     color: black;
 }
 .index-box p {
-    text-align: center;
+    padding-left: 60px;
+}
+.index-box img{
+    width: 190px;
+    padding-left: 40px;
 }
 /* Slideshow section on work experience styles */
 * {box-sizing:border-box}
@@ -187,7 +245,8 @@ body h1{
     list-style-type: none;
     /* padding-right: 40px; */ /* <- To be used when aligning text to the centre */
     padding-left: 0px;
-    line-height: 1.9;
+    line-height: 2.6;
+    padding-bottom: 35px;
 }
 /* Footer Styles */
 footer{
